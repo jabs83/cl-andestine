@@ -1,0 +1,10 @@
+django==1.7
+djangorestframework-jwt==1.0.2
+easy-thumbnails
+python-magic
+pytz
+wand
+ipdb
+
+-e git+https://github.com/erichonkanen/rest_framework_ember.git@master#egg=rest_framework_ember
+-e git+https://github.com/tomchristie/django-rest-framework.git@version-3.0#egg=django-rest-framework

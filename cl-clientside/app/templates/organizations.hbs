@@ -1,0 +1,8 @@
+<h2 id='title'>Organizations</h2>
+{{model}}
+<ul>
+	{{#each}}
+		<li>{{#link-to 'organizations.organization' this}}{{name}}{{/link-to}}</li>
+	{{/each}}
+</ul>
+{{outlet}}
